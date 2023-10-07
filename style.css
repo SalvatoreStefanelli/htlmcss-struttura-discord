@@ -69,3 +69,18 @@ header {
 #content_main_color {
     background-color: lightgrey;
 }
+
+.queue_main {
+    width: 100%;
+    height: 400px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.queue {
+    width: 70%;
+    height: 380px;
+    background-color: green;
+}
