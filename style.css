@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(60, 199, 188);
+}
+
+header {
+    margin: 25px 50px;
+    background-color: orange;
+    height: 60px;
+    border: 2px dashed black;
+    border-spacing: 0;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.link {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 20%;
+}
+
+.login {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.head {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
