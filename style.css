@@ -10,30 +10,29 @@ body {
 
 header {
     margin: 25px 50px;
-    background-color: orange;
-    height: 60px;
-    border: 2px dashed black;
-    border-spacing: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     width: 20%;
-    display: flex;
-    justify-content: flex-start;
-
+    border: 2px dashed black;
+    background-color: orange;
 }
 
 .link {
     width: 80%;
-    display: flex;
-    justify-content: center;
-    margin: 0 20%;
+    margin: 0 auto;
+    border: 2px dashed black;
+    background-color: orange;
+    text-align: center;
 }
 
 .login {
     width: 20%;
-    display: flex;
-    justify-content: flex-end;
+    border: 2px dashed black;
+    background-color: orange;
 }
 
 .head {
